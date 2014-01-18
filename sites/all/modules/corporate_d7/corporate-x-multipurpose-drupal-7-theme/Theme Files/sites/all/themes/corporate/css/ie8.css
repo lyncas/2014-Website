@@ -1,0 +1,69 @@
+/**
+ * @file
+ * CSS targeted specifically for Internet Explorer 7 (and earlier) for Windows.
+ *
+ * Any CSS in this file will apply to all versions of IE before IE 8. You can
+ * target specific versions of IE by using conditional comments. See your
+ * sub-theme's .info file for an easy way to use them.
+ */
+
+
+/*
+ * Tabs
+ */
+
+ul.primary li a,
+ul.primary li a .tab,
+ul.secondary li a,
+ul.secondary li a .tab {
+  cursor: pointer;
+}
+
+/*
+ * Drupal nodes
+ */
+
+.node-unpublished>* {
+  position: relative; /* Otherwise these elements will appear below the "Unpublished" text. */
+}
+
+/*
+ * Drupal admin tables
+ */
+tr.even th,
+tr.even td,
+tr.odd th,
+tr.odd td {
+  border-bottom: 1px solid #ccc; /* IE doesn't display borders on table rows */
+}
+
+
+/* Corporate Theme Specific Fixes for IE8 */
+
+#block-system-main-menu ul  {
+    margin-top: 10px;
+	padding-bottom: 40px;
+}
+
+#block-system-main-menu ul li {
+    display: block;
+	float: left;
+    list-style: none outside none;
+}
+
+#block-system-main-menu ul li.expanded ul{
+    padding-bottom: 5px;
+}
+
+#block-system-main-menu ul li.expanded li {
+    display: block;
+	float: none;
+}
+
+.view-portfolio-gallery-3-columns .view-content .views-row-3, .view-portfolio-gallery-3-columns .view-content .views-row-6, .view-portfolio-gallery-3-columns .view-content .views-row-9, .view-portfolio-gallery-3-columns .view-content .views-row-12, .view-portfolio-gallery-3-columns .view-content .views-row-15{
+    margin-right: 0;
+}
+
+.view-portfolio-gallery-3-columns .view-content .views-row-1, .view-portfolio-gallery-3-columns .view-content .views-row-4, .view-portfolio-gallery-3-columns .view-content .views-row-7, .view-portfolio-gallery-3-columns .view-content .views-row-10, .view-portfolio-gallery-3-columns .view-content .views-row-13{
+    clear: both;
+}

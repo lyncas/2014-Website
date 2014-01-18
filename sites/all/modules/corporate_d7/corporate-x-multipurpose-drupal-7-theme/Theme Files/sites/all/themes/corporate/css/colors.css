@@ -1,0 +1,309 @@
+/* Base Color*/
+
+body {
+    background: none repeat-x scroll 0 0 #666666;	
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1{
+	background: url("../images/glow.png") no-repeat scroll 0 0 #666666;
+}
+  
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-slideshow-cycle-main-frame-row  img{
+    background: url("/prebuiltsites.com/corporate/sites/all/themes/corporate/images/glow.png") no-repeat scroll -370px 0 #666666;
+}
+
+/* Blocks Color */
+
+.region-sidebar-second .block .content {
+    background: none repeat scroll 0 0 #6D6D6D;
+}
+
+.field-type-taxonomy-term-reference{
+	background: none repeat scroll 0 0 #6D6D6D;
+}
+
+.views-field-field-related-products{
+    background: none repeat scroll 0 0 #6D6D6D;
+}
+
+.field-name-field-related-products {
+    background: none repeat scroll 0 0 #6D6D6D;
+}
+
+#comments{
+	background: none repeat scroll 0 0 #6D6D6D;
+}
+
+#contact-site-form {
+    background: none repeat scroll 0 0 #6D6D6D;
+    padding: 1px 27px 10px;
+}
+
+
+/* Headers Color*/
+
+h1, h2, h3, h4, h5, h6{
+	color: #ededed ;
+}
+
+h2 a, h3 a {
+    color: #ededed !important;
+}
+
+.view-id-home_page.view-display-id-attachment_1 .views-field-field-home-item-title a {
+    color: #ededed; 
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-field-field-description {
+    color: #ededed; 
+}
+
+.view-id-home_page.view-display-id-attachment_4  .views-field-title-1 a{
+    color: #ededed;
+}
+
+#block-comment-recent a{
+	color: #ededed;
+}
+
+.view-id-home_page.view-display-id-attachment_1 .views-field-field-related-products ul a{
+   color: #ededed;
+}
+
+.field-name-field-related-products a{
+   color: #ededed;
+}
+
+/* Main Menu Color */
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-slideshow-cycle-main-frame-row img {
+    border-bottom: 1px solid #333333;
+}
+
+#corporate-header {
+    background-color: #333333;	
+	box-shadow: 0 1px 7px #020202; /* Menu Shadow Color*/
+}
+
+#header {
+    background-color: #333333;    
+}
+
+.view-id-jquery_slideshow.view-display-id-block_1 .active .selector{
+	background: #333333;	
+}
+
+#block-system-main img {
+    border: 1px solid #333333;
+}
+
+.region-sidebar-second .views-row img {
+    border: 1px solid #333333;
+}
+
+#block-system-main-menu ul li.expanded ul {
+    background-color: #333333 !important;
+}
+
+h1, h2, h3{
+    border-color: #777777 !important;
+}
+
+h2, h3{
+	text-shadow: 1px 1px 1px #212121;
+}
+
+body {
+    border-color: #777777;
+}
+
+h2.block-title {
+    border-bottom: 1px solid #777777;    
+}
+
+.view-display-id-page.view-dom-id-1:first-child .views-field-field-home-item-title h2 {
+    border-bottom: 1px solid #777777;    
+}
+
+.view-id-home_page.view-display-id-attachment_4 .views-row {
+    border-color: #777777;
+}
+
+.view-id-latest_news.view-display-id-page  .views-row{
+	border-color: #777777;
+}
+
+.view-id-our_services.view-display-id-page .views-row{
+	border-color: #777777;
+}
+
+.view-id-home_page.view-display-id-attachment_5 .view-header {
+	border-color: #777777;
+}
+
+.view-id-adds_block.view-display-id-block .view-header{
+	border-color: #777777;
+} 
+
+.view-id-our_products.view-display-id-page .views-row {
+    border-color: #777777;
+}
+
+.view-id-products_portfolio .views-row {
+    border-color: #777777;
+}
+
+
+/* Main Menu Items Color*/
+
+#block-system-main-menu ul li a {
+    color: #878b84;
+}
+
+.view-id-jquery_slideshow.view-display-id-block_1 .selector{
+	background: #878b84;	
+}
+
+
+/*Main Menu Items Hover Color*/
+
+#block-system-main-menu ul li a.active, #block-system-main-menu ul li a:hover, #block-system-main-menu ul li a.active-trail {
+    color: #ffffff;   
+}
+
+.view-id-jquery_slideshow.view-display-id-block_1 .active .selector{
+	background: #ffffff;	
+}
+
+
+/*Forms Color*/
+
+input.form-submit {
+    background: none repeat scroll 0 0 #656565;
+    border: 1px outset;
+    color: #BABABA;
+}
+
+#block-search-form input.form-submit {
+    background: url("../images/search.png") no-repeat scroll 0 0 transparent;
+	border: none;
+}
+
+
+#block-search-form input.form-text {
+    background: none repeat scroll 0 0 #656565;
+	color: #bababa;
+}
+
+#contact-site-form input.form-text, #contact-site-form textarea {
+    background: none repeat scroll 0 0 #656565;
+    border: medium none;
+    color: #BABABA;
+}
+
+
+/*Text Color*/
+
+body{
+	color: #bababa ;
+}
+
+.view-id-projects_tags ul li a {
+    color: #bababa;
+}
+
+.view-id-home_page.view-display-id-attachment_1 .views-field-field-home-item-read-1 {
+    color: #bababa;
+}
+
+#block-views-adds-block-block .views-field-title a{
+    color: #bababa;
+}
+
+.field-type-taxonomy-term-reference .field-item a{
+    color: #bababa;
+}
+
+
+/*Links Color*/
+
+a {
+	 color: #ffd42b;
+	 text-decoration: none !important;	 
+}
+
+li a.active {
+    color: #ffd42b;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-field-field-link-text a {
+    color: #323232;	
+	background: none repeat scroll 0 0 #fac700; 
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-field-field-link-text a:hover	 {
+    color: #fac700;	
+	background: none repeat scroll 0 0 #323232;
+}
+
+
+ul.pager li a{
+	color: #676767;	
+	background: none repeat scroll 0 0 #ffd42b;
+}
+
+ul.pager li a:hover{
+	color: #ffd42b;	
+	background: none repeat scroll 0 0 #676767;
+}
+    
+ /*Footer Color*/
+ 
+.region-footer {
+    background: none repeat scroll 0 0 #222222;
+}
+
+.region-footer  h2{
+    color: #646464 !important;
+}
+
+ /*Footer Text Color*/
+ 
+.region-footer {
+    color: #646464;
+}
+
+.region-footer a{
+    color: #646464 !important;
+	text-decoration: none;
+}
+
+/* Text Shadow Color */
+
+ul.pager li a{
+	box-shadow: 0 0 1px #010101;
+}
+
+h1 {
+	text-shadow: 1px 1px 0 #010101;
+}
+
+#block-system-main-menu ul li a {
+	text-shadow: 1px 1px 0 #010101;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-slideshow-cycle-main-frame-row h2 a {
+    text-shadow: 1px 1px 3px #010101;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-field-field-description {
+    text-shadow: 1px 1px 3px #010101;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-field-field-link-text a {
+	box-shadow: 0 0 1px #010101;
+}
+
+.view-id-home_page.view-display-id-attachment_4 .view-header h2 a {    
+    text-shadow: 1px 1px 1px #555555;
+}

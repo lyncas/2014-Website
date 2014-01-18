@@ -1,0 +1,823 @@
+/*
+ *	Corporate X v2.0
+ *	Media Layout for MaxDeviceWidth 320px
+ *	
+ *  This stylesheet works only on a 320px width device. i.e. an iPhone on Portrait mode.
+*/
+
+
+/* SlideShow */
+
+#block-views-jquery-slideshow-block-1 {
+    display: block;
+    margin-top: 27px;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-field-field-slide-image {
+    float: none;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-slideshow-cycle-main-frame-row-item {
+    padding-left: 0;
+}
+
+.view-id-jquery_slideshow.view-display-id-block_1 .selector {
+    height: 21px;
+    width: 21px;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-slideshow-cycle-main-frame-row img {
+    background-position: -363px -10px;
+	background-image: none !important;
+    height: auto;
+    margin-left: 0;
+    margin-top: 0;
+    width: 320px;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-field-title {
+    padding-left: 10px;
+    padding-top: 6px;
+}
+
+.view-id-jquery_slideshow.view-display-id-block_1 .views-slideshow-controls-bottom {
+    margin-left: 8px;
+    margin-top: -35px;
+    position: absolute;
+    z-index: 100;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-field-field-description {
+    font-size: 0.9em;
+    padding-left: 10px;
+    width: 300px;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-field-field-link-text{
+	display: none;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-slideshow-cycle-main-frame-row h2 a {
+    font-size: 1.1em;   
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 {
+    background-position: -98px 46px !important;
+}
+
+#views_slideshow_cycle_teaser_section_jquery_slideshow-block_1 {
+    height: 293px !important;
+    width: 768px !important;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-slideshow-cycle-main-frame-row {
+    width: 768px !important;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-slideshow-cycle-main-frame-row h2 {
+    width: 300px;
+}
+
+
+
+#header{	
+	width: 320px;
+	overflow: hidden;
+}
+
+#corporate-header {
+    height: 244px;
+    position: absolute;
+    width: 100%;
+    z-index: -4;
+	display:none;
+}
+
+.region-header {
+    clear: none !important;
+    margin-left: 0;
+    padding: 0 10px;
+}
+
+#mobile-logo {
+    display: block;
+    margin-bottom: 9px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+#logo {
+    margin-left: 0;
+    margin-top: 10px;
+	display: none;
+}
+
+/* Main Layout */
+
+#page-wrapper {
+    max-width: 320px;
+    min-width: 320px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#main-wrapper {
+    background: none repeat scroll 0 0 transparent;    
+    padding: 10px 10px 0;
+	width: 300px;		
+}
+
+body.one-sidebar.sidebar-second #main #content {    
+    width: 100%;
+}
+
+.region-sidebar-second {
+    clear: both;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 30px !important;
+    width: 300px;
+}
+
+.region-sidebar-second .section {
+    margin-left: 0;
+    width: 300px;
+}
+
+#block-views-logoblock-block, #block-views-latest-news-block , #block-menu-menu-footer-menu , #block-views-follow-us-block{
+	float: none;
+}
+
+#block-views-logoblock-block {
+    margin-bottom: 35px;
+}
+
+#block-views-latest-news-block {
+    margin-bottom: 35px;
+}
+
+#block-menu-menu-footer-menu{
+    margin-bottom: 35px;
+}
+
+.region-footer h2.block-title {
+    border-bottom: 1px solid;
+    width: 275px;
+}
+
+#block-views-follow-us-block h2 {
+    border-bottom: 1px solid;
+    width: 275px;
+	padding-bottom: 5px;
+}
+
+body.one-sidebar.sidebar-second #main #content {
+    margin-right: 0;
+    padding-right: 0 !important;
+    width: 300px;
+}
+
+.breadcrumb {
+    font-size: 0.9em;
+    padding-bottom: 15px;
+}
+
+#block-system-main img {
+    border: medium none !important;    
+}
+
+/* Home Page iPhone Portrait */
+
+.view-id-home_page .attachment {   
+    width: 100%;
+}
+
+.view-id-home_page img {    
+    height: auto;
+    width: 300px;
+}
+
+.view-id-home_page.view-display-id-attachment_1 {
+    width: 100%;
+}
+
+.view-id-home_page.view-display-id-attachment_4 {   
+    width: 100%;
+}
+
+.view-id-home_page.view-display-id-attachment_4 .view-content {
+    font-size: 1.25em;
+    width: 100%;
+}
+
+.view-id-home_page.view-display-id-attachment_4 img {
+    height: auto;
+    width: 100px;
+}
+
+.view-id-home_page.view-display-id-attachment_4 .views-row {   
+    width: 300px;
+}
+
+#block-block-1 hr {
+    margin-left: 10px;
+    width: 300px;
+}
+
+#block-block-1 p {    
+    padding: 10px;    
+}
+
+/* Portfolio 3 Columns */
+
+.view-portfolio-gallery-3-columns .views-field-field-image{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+.view-portfolio-gallery-3-columns .views-field-field-image img {
+    height: auto;
+    width: 157px;
+}
+
+.view-portfolio-gallery-3-columns .views-field-title h2 {
+    line-height: 1.3em;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.view-portfolio-gallery-3-columns .views-row {
+    border-bottom: 1px dashed;
+    float: left;   
+    width: 300px;
+}
+
+/* Latest News */
+
+.view-id-latest_news img{
+	height: auto;
+    width: 150px;
+}
+
+/* Our Services */
+
+.view-id-our_services img{
+	height: auto;
+    width: 300px;
+}
+
+.view-id-contact_us img {
+    height: auto;
+    width: 300px;
+}
+
+.node-services img{
+	max-width: 300px;
+	height: auto;	
+}
+
+/* Contact Us */
+
+.view-id-contact_us img {
+    height: auto;
+    width: 300px;
+}
+
+#contact-site-form input.form-text {
+    width: 259px !important;
+}
+
+#contact-site-form textarea {   
+    width: 276px !important;
+}
+
+#contact-site-form {
+    padding: 1px 12px !important;
+}
+
+/* Top Search Form */
+
+#block-multiblock-1 {
+    margin-bottom: 19px;
+    margin-left: 0;
+    padding: 0;
+    width: 296px;
+}
+
+#block-multiblock-1 .form-text {
+    color: #CCCCCC;
+    margin: 0 0 0 1px;
+    padding: 7px 34px 7px 7px;
+    width: 249px;
+}
+
+#block-multiblock-1 .form-text:focus {
+   	color: #333333;
+}
+
+#block-multiblock-1 .form-actions {
+    margin-left: -31px;
+    margin-top: 8px;
+    position: absolute;
+    z-index: 10;
+}
+
+#block-multiblock-1 .form-submit {
+    background: url("../images/search.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    float: right;
+    font-size: 0;
+    height: 30px;
+    margin-top: -7px;
+    width: 30px;
+}
+
+/* Mobile Menu */
+
+#edit-jump {
+    padding: 9px;
+    width: 260px;
+	height: 38px;
+}
+
+#block-search-form .form-type-textfield {
+    background: url("../images/mobile-search.png") no-repeat scroll 5px 10px transparent;
+    float: left;
+    padding-left: 40px;
+}
+
+#block-jump-menu-jump-menu-main-menu .form-type-select {
+    background: url("../images/mobile-home.png") no-repeat scroll 2px 8px transparent;
+    float: left;
+    padding-left: 40px;
+}
+
+#block-jump-menu-jump-menu-main-menu {
+    margin-top: -41px;
+}
+
+/* Main Menu Styles */
+
+#block-system-main-menu {    
+	display: none;
+}
+
+
+
+.view-footer{
+	width: 100%;
+}
+
+a.back-to-top {
+    background: url("../images/up.png") no-repeat scroll 5px 6px #DDDDDD;
+    display: block;
+    font-size: 11px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+	margin-top: 10px;
+}
+
+a.back-to-top:hover, a.back-to-top:active {
+    background: url("../images/up.png") no-repeat scroll 5px 6px #999999;  
+	color: #EEEEEE;	
+}
+
+
+/* 
+ * RIGHT SIDEBAR REGION BLOCKS 
+ *
+ * These are the blocks located at the right side of every page. 
+ *
+ */ 
+ 
+ /* Search Form */
+
+#block-search-form {
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 1px;
+    padding: 0 !important;
+    width: 100%;
+}
+
+#block-search-form input.form-text {
+    border: medium none;
+    height: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px 19px 5px 10px;
+    width: 230px;
+}
+
+#block-search-form .form-text:focus {
+   	color: #333333;
+}
+
+#block-search-form .form-actions {
+    margin-left: -31px;
+    margin-top: 12px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    z-index: 10;
+}
+
+#block-search-form .form-submit{
+	background: url("../images/search.png") no-repeat scroll 0 0 transparent;
+	border: medium none;
+    font-size: 0;
+    height: 30px;
+    width: 30px;
+}
+ 
+/* 
+ * Sidebar Advertisement Styles 
+ */
+ 
+#block-views-ads-sidebar-block-block .view-header em.advertisement {
+	display: none !important;
+} 
+
+#block-views-ads-sidebar-block-block .view-content{
+	clear: both;
+}
+
+#block-views-ads-sidebar-block-block .view-header a {
+    display: block;
+    float: none;
+    margin-bottom: 13px;
+    margin-top: -4px;
+}
+
+#block-views-ads-sidebar-block-block .view-content a {
+    font-size: 1em;
+    text-align: left !important;
+}
+
+#block-views-ads-sidebar-block-block .view-content .views-field-field-image {
+    float: left;
+}
+
+#block-views-ads-sidebar-block-block .views-row {
+    border-bottom: 1px dashed #CCCCCC;
+    clear: both;
+    margin-bottom: 7px;
+    min-height: 117px;
+    padding-bottom: 7px;
+}
+
+.region-sidebar-second .block {   
+    clear: both;    
+}
+
+#block-views-ads-sidebar-block-block .views-field-title {
+    display: block;
+    margin-bottom: 11px;
+    margin-top: 0;
+    padding-left: 218px;
+    text-align: left;
+}
+
+#block-views-top-rated-articles-block{
+	margin-bottom: 10px;
+}
+
+#block-block-4{
+	padding: 0;
+	background: none;
+}
+
+
+/* Footer: Region "First Column" */
+
+#footer {
+    background: none no-repeat scroll 0 0 #333333;
+    border-top: 1px solid #000000;
+    color: #CCCCCC;
+    font-size: 0.9em;
+    padding: 19px 12px 12px;
+}
+
+.region-footer-first-column, .region-footer-second-column, .region-footer-third-column, .region-footer-fourth-column{
+	float: none;
+	width: 100%;
+	margin-right: 0;
+}
+
+.region-footer-fourth-column {
+    clear: both;
+    margin-right: 0;
+}
+
+
+/* NewsLetter (SimpleNews Module) Block Styles */
+
+.block-simplenews {
+    float: left;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.block-simplenews .form-text {
+    font-size: 1.3em;
+    margin: 4px 0 0;
+    padding: 4px 7px;
+    width: 278px;
+}
+
+/* Recent Posts Block */
+
+#block-views-recent-posts-block {
+    float: left;
+    width: 100%;
+}
+
+#block-views-recent-posts-block .view-recent-posts {    
+    width: 100%;
+}
+
+/* Last Viewed Posts Block */
+
+#block-views-last-viewed-block {
+    float: none;
+    margin-bottom: 35px;
+    margin-right: 0;
+    width: auto;
+}
+
+/* Node Full View */
+
+body.node-type-article .node-article .field-name-field-image img {
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    padding: 3px;
+	width: 292px;
+	height: auto;
+}
+
+body.node-type-article .node-article .field-name-body {
+    padding-top: 80px;
+}
+
+body.node-type-article .node .submitted {
+    border-bottom: 1px solid #CCCCCC;
+    color: #777777;
+    margin-bottom: 21px;
+    margin-top: 3px;
+}
+
+body.node-type-article .node .content {
+    padding-top: 82px;
+}
+
+#block-widgets-s-addthis-share {
+    float: right;
+    margin-right: 4px;
+    margin-top: 36px;
+    position: absolute;
+    left: 0px;
+}
+
+#block-widgets-s-addthis-share div.widgets-element-horizontal {
+    float: left;
+    padding: 4px 10px;
+}
+
+body.node-type-article h1{
+	padding-top: 16px;
+}
+
+/* Taxonomy Pages */
+
+body.page-taxonomy-term h1 {
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 15px;
+    margin-top: 13px;
+    padding-bottom: 9px;
+}
+
+/* Taxonomy Pages */
+
+body.page-taxonomy-term h2 {
+    font-size: 1.7em;
+    margin-bottom: 5px;
+    margin-top: -4px;
+    padding-bottom: 0;
+}
+
+body.page-taxonomy-term .node-teaser .submitted {
+    color: #777777;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    padding-bottom: 0;
+}
+
+.side {
+    border-right: 1px solid #CCCCCC;
+    float: left;
+    margin-left: 6px;
+    margin-right: 12px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.node-side {
+    border-bottom: 1px dashed #CCCCCC;
+    float: none;
+    margin-bottom: -20px;
+    padding-bottom: 8px;
+    width: 300px;
+}
+
+.dayD {
+    font-size: 1.2em;
+}
+
+.day {
+    font-size: 2.4em;
+    margin-top: -7px;
+}
+
+.month {
+    font-size: 0.8em;
+    margin-top: -5px;
+}
+
+.node-article.node-teaser img {    
+    margin-bottom: 5px;
+    padding: 3px !important;
+}
+
+.node-article.node-teaser {
+    background: none no-repeat scroll center bottom transparent    
+}
+
+body.page-taxonomy-term  .node-article.node-teaser img {
+    height: auto;
+	width: 140px;
+}
+
+#block-similarterms-all{
+    margin-bottom: 53px;
+}
+
+li.statistics_counter{
+	display: none !important;
+}
+
+/* Edit Link */
+
+.views-field-edit-node{    
+    position: absolute;
+}
+
+.views-field-edit-node a {
+    background: url("../images/edit.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-size: 10px;
+    height: 21px;
+    margin-left: -6px;
+    margin-top: 3px;
+    padding: 1px 1px 1px 10px;
+    position: absolute;
+    text-decoration: none;
+    width: 37px;
+}
+
+#block-views-articles-categories-block-block .attachment .views-field-edit-node, #block-views-articles-block-2-block .attachment .views-field-edit-node, #block-views-articles-block-3-block .attachment .views-field-edit-node, #block-views-articles-block-4-block .attachment .views-field-edit-node, #block-views-articles-block-5-block .attachment .views-field-edit-node, #block-views-articles-block-6-block .attachment .views-field-edit-node, #block-views-most-popular-block .views-field-edit-node {
+    margin-left: -71px;
+}
+
+#block-views-top-rated-articles-block .views-field-edit-node, #block-views-most-popular-today-block .views-field-edit-node, #block-views-most-popular-all-time-block .views-field-edit-node, #block-views-most-commented-block .views-field-edit-node, #block-views-recent-posts-block  .views-field-edit-node, #block-views-last-viewed-block  .views-field-edit-node{
+	margin-left: -51px;
+}
+
+.view-id-blog_view .views-field-edit-node a {
+    margin-left: -291px;
+}
+
+.views-field-edit-node a:hover {
+    background: url("../images/edit-hover.png") no-repeat scroll 0 0 transparent;
+    color: #FF0000;    
+}
+
+#block-views-slideshow-block .views-field-edit-node a, #block-views-slideshow-2-block .views-field-edit-node a, #block-views-slideshow-3-block .views-field-edit-node a {
+    margin-left: -15px;
+    padding-left: 11px;
+}
+
+.view-id-blog_view .views-field-edit-node a{    
+    padding-left: 11px;
+}
+
+body.node-type-article #comments .content {
+	padding-top: 0;
+}
+
+body.node-type-article #comments h2 {
+	padding-bottom: 10px;
+}
+
+.comment .user-picture {
+    float: left;
+}
+
+.comment .user-picture img{
+    width: 40px;
+	height: auto;
+}
+
+.comment .user-picture {
+    display: block !important;
+    float: left;
+    margin-left: -52px;
+}
+
+.node .user-picture {
+    display: none;
+}
+
+.comment-add a {
+	background: none repeat scroll 0 0 #CCCCCC;
+    border: 1px solid #333333;
+    display: block;
+    margin-bottom: -15px;
+    margin-top: 14px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.node-article .field-name-body img{
+	border: 1px solid #CCCCCC;
+	padding: 3px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+	max-width: 292px !important;
+	height: auto !important;
+}
+
+#comment-form #edit-subject{
+	width: 60%;
+}
+
+#comments {
+    padding: 13px;
+}
+
+pre {    
+    overflow: hidden;    
+    width: 90%;
+}
+
+/* Social Sharing */
+
+body.node-type-article #block-widgets-s-addthis-share{
+	float: right;
+    left: 0;
+    margin-right: 4px;
+    margin-top: -6px;
+    position: absolute;
+}
+
+body.node-type-article .node .content {
+    padding-top: 82px;
+}
+
+body.node-type-products .node .content {
+    padding-top: 82px;
+}
+
+body.node-type-services .node .content {
+    padding-top: 82px;
+}
+
+body.node-type-products #block-widgets-s-addthis-share {
+    float: right;
+    left: 4px;
+    margin-right: 4px;
+    margin-top: -7px;
+    position: absolute;
+}
+
+body.node-type-services #block-widgets-s-addthis-share {
+    float: right;
+    left: 4px;
+    margin-right: 4px;
+    margin-top: -7px;
+    position: absolute;
+}
+
+.messages.error{
+	display: none;
+}
+
+body #comments .content {
+    padding-top: 0;
+}

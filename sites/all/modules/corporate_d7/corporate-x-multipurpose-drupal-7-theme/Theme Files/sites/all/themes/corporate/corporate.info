@@ -1,0 +1,71 @@
+
+screenshot  = screenshot.png
+name        = Corporate Premium Drupal 7 Theme v2.0
+description = This theme includes <em>a fully responsive layout</em>, <em>jQuery Slider</em>, <em>Contextual Edit</em>, <em>online theme edit</em> using a <em>Color Picker</em> & <em>Live Preview</em> and many other stuff. <br /> <br /><strong>VERY IMPORTANT</strong>: If you owned this theme, then you can download updated versions free of cost. For more info visit <strong><a href="http://themeforest.net/item/corporate-x-multipurpose-drupal-7-theme/926653?ref=jagutierrez">ThemeForest Item Page</a></strong> or contact the author via <strong><a href="http://themeforest.net/user/jagutierrez?ref=jagutierrez">his profile page</a></strong> for support. 
+
+core        = 7.x
+base theme  = zen
+
+stylesheets[all][]        = css/html-reset.css
+stylesheets[all][]        = css/wireframes.css
+stylesheets[all][]        = css/layout-fixed.css
+stylesheets[all][]        = css/page-backgrounds.css
+stylesheets[all][]        = css/tabs.css
+stylesheets[all][]        = css/pages.css
+stylesheets[all][]        = css/blocks.css
+stylesheets[all][]        = css/navigation.css
+stylesheets[all][]        = css/views-styles.css
+stylesheets[all][]        = css/nodes.css
+stylesheets[all][]        = css/comments.css
+stylesheets[all][]        = css/forms.css
+stylesheets[all][]        = css/fields.css
+stylesheets[all][]        = css/corporate.css
+stylesheets[all][]        = css/r-mobile-portrait-layout.css
+
+
+stylesheets[(min-width: 479px)][] = css/r-mobile-landscape-layout.css
+stylesheets[(min-width: 767px)][] = css/r-tablet-layout.css
+stylesheets[all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)][] = css/r-screen-layout.css
+
+stylesheets-conditional[lte IE 8][all][]  = css/ie8.css
+stylesheets-conditional[lte IE 7][all][]  = css/ie7.css
+stylesheets-conditional[lte IE 6][all][]  = css/ie6.css
+
+stylesheets-conditional[lt IE 9][all][]  = css/ie-r-mobile-landscape-layout.css
+stylesheets-conditional[lt IE 9][all][]  = css/ie-r-tablet-layout.css
+stylesheets-conditional[lt IE 9][all][]  = css/ie-r-screen-layout.css 
+
+stylesheets[all][]        = css/colors.css
+stylesheets[print][]      = css/print.css
+
+scripts[] = js/corporate_x.js
+
+regions[help]           = Help
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[navigation]     = Navigation bar
+regions[slideshow]    	= Slideshow
+regions[highlighted]    = Highlighted
+regions[content]        = Content
+regions[header]         = Header
+regions[footer]         = Footer
+regions[bottom]         = Page bottom
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
+features[] = logo
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[zen_breadcrumb]           = yes
+settings[zen_breadcrumb_separator] = ' › '
+settings[zen_breadcrumb_home]      = 1
+settings[zen_breadcrumb_trailing]  = 1
+settings[zen_breadcrumb_title]     = 0
+settings[zen_jump_link_target]     = main-menu
+settings[zen_rebuild_registry]     = 1
+settings[zen_wireframes]           = 0

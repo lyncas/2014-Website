@@ -1,0 +1,161 @@
+/**
+ * @file
+ * CSS targeted specifically for Internet Explorer 7 (and earlier) for Windows.
+ *
+ * Any CSS in this file will apply to all versions of IE before IE 8. You can
+ * target specific versions of IE by using conditional comments. See your
+ * sub-theme's .info file for an easy way to use them.
+ */
+
+
+/*
+ * Tabs
+ */
+
+ul.primary li a,
+ul.primary li a .tab,
+ul.secondary li a,
+ul.secondary li a .tab {
+  cursor: pointer;
+}
+
+/*
+ * Drupal nodes
+ */
+
+.node-unpublished>* {
+  position: relative; /* Otherwise these elements will appear below the "Unpublished" text. */
+}
+
+/*
+ * Drupal admin tables
+ */
+tr.even th,
+tr.even td,
+tr.odd th,
+tr.odd td {
+  border-bottom: 1px solid #ccc; /* IE doesn't display borders on table rows */
+}
+
+
+
+/* Corporate Theme Specific Fixes for IE7 */
+
+
+#views_slideshow_cycle_main_home_page-page .views-field-title {
+    margin-top: 10px;
+	position: absolute;
+}
+
+
+.view-id-jquery_slideshow.view-display-id-block_1 .views-slideshow-pager-field-item {
+    display: inline;
+    margin-right: 5px;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-field-field-slide-image {
+    height: 220px;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-field-title {
+    position: absolute;
+	top: 6px;
+}
+
+#views_slideshow_cycle_main_jquery_slideshow-block_1 .views-field-field-description {
+    margin-top: 80px;
+	
+}
+
+.view-id-jquery_slideshow.view-display-id-block_1 .views-slideshow-controls-bottom {    
+    margin-top: -20px;    
+}
+
+.view-id-jquery_slideshow.view-display-id-block_1 .view-footer {
+    margin-top: -2px;
+}
+
+hr.top {    
+    margin: -5px 0 0;	
+	padding: 0;
+	border-bottom: solid 2px #777777;
+	border-top: solid 1px #555555;
+	height: 1px;
+}
+
+hr.top-shadow {    
+    display: none;
+}
+
+.view-id-jquery_slideshow{
+	margin-top: 10px;
+}
+
+.view-id-jquery_slideshow.view-display-id-block_1 .views-slideshow-controls-bottom {    
+    margin-top: -29px;    
+}
+
+#corporate-header {
+    left: 0;    
+}
+
+#block-search-form input.form-text {
+    position: absolute;
+	right: 30px;
+	z-index: 11;
+}
+
+#block-search-form input.form-submit {
+    position: absolute;
+	right: 0;
+	z-index: 12;
+	font-size: 0pt;
+}
+
+#block-block-1 hr {    
+    margin-left: 190px;
+	text-align: left;    
+}
+
+.view-id-home_page.view-display-id-attachment_4 {    
+    margin-top: 18px;
+}
+
+.field-type-taxonomy-term-reference .field-item {    
+    display: inline;    
+}
+
+.view-id-projects_tags ul li {
+    display: inline;
+	margin-bottom: 6px;
+}
+
+#block-system-main-menu ul  {
+    margin-top: 10px;
+	padding-bottom: 40px;
+}
+
+#block-system-main-menu ul li {
+    display: block;
+	float: left;
+    list-style: none outside none;
+}
+
+#block-system-main-menu ul li.expanded ul{
+    padding-bottom: 5px;	
+}
+
+#block-system-main-menu ul li.expanded li {
+    display: block;
+	float: none;
+}
+
+
+
+.view-portfolio-gallery-3-columns .view-content .views-row-3, .view-portfolio-gallery-3-columns .view-content .views-row-6, .view-portfolio-gallery-3-columns .view-content .views-row-9, .view-portfolio-gallery-3-columns .view-content .views-row-12, .view-portfolio-gallery-3-columns .view-content .views-row-15{
+    margin-right: 0;
+}
+
+.view-portfolio-gallery-3-columns .view-content .views-row-1, .view-portfolio-gallery-3-columns .view-content .views-row-4, .view-portfolio-gallery-3-columns .view-content .views-row-7, .view-portfolio-gallery-3-columns .view-content .views-row-10, .view-portfolio-gallery-3-columns .view-content .views-row-13{
+    clear: both;
+}

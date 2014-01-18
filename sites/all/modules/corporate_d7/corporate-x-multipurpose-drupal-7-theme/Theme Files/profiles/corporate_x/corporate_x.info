@@ -1,0 +1,5 @@
+name = Corporate X v2.1 (Drupal 7.12)
+description = Corporate X Premium Theme v2.0 Installation Profile. This version is built over Drupal 7.12 (Released February 1, 2012). For more info visit <a href="themeforest.net/item/corporate-x-multipurpose-drupal-7-theme/926653?jagutierrez">Item's Page</a>
+version = VERSION
+core = 7.x
+files[] = corporate_x.profile
