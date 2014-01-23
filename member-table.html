@@ -1,8 +1,7 @@
 <h2>Members</h2>
-This <b>page</b> gives a short profile of each member on the team.
-<br></br>
+This <b>page</b> gives a short profile of each member on the team. <p><i>Click on any member's thumbnail to view their information </i><br></br>
 
-<script language = "javascript" type="text/javascript">  var name; picture = new Array; grade = new Array; position = new Array; song = new Array; clubs = new Array; future = new Array;
+  <script language = "javascript" type="text/javascript">  var name; picture = new Array; grade = new Array; position = new Array; song = new Array; clubs = new Array; future = new Array;
 
 name = 'Mason Cole';
 picture[name] = "";
@@ -10,6 +9,14 @@ grade[name] = "9th";
 position[name] = "Media, Programming, CAD";
 song[name] = "";
 clubs[name] = "Cloud - CVHS Robotics, CVHS Tech-Talks";
+future[name] = "";
+
+name = 'Franz Brotzen-Smith';
+picture[name] = "";
+grade[name] = "10th";
+position[name] = "Media";
+song[name] = "";
+clubs[name] = "Debate";
 future[name] = "";
 
 name = 'Christian Molina';
@@ -445,9 +452,12 @@ future[name] = "";
 
 
 
-</script>
-<!--  ##ThumbNails## -->
-<table cellpadding="0" cellspacing="0"><tr>
+  </script>
+
+  <!--  ##ThumbNails## -->
+</p>
+<table cellpadding="0" cellspacing="0">
+  <tr>
 <td valign="top">
 
 <table cellpadding="0" cellspacing="0">
@@ -456,11 +466,18 @@ future[name] = "";
 <!-- MEDIA team -->
 <h2>Media</h2><p>Building the Discobots Image and Media</p>
 
+<div onClick="javascript:changeStuff('Mason Cole')" onMouseOver="this.style.cursor='hand'" style="float:left">
+<img src="/images/members/2012/heads/unknown.JPG" height="70" width="60" alt="Mason Cole" style="margin:3px"></div>
+
+
 <div onClick="javascript:changeStuff('Sairahul Adharapurapu')" onMouseOver="this.style.cursor='hand'" style="float:left">
 <img src="/images/members/2012/heads/unknown.JPG" height="70" width="60" alt="Sairahul Adharapurapu" style="margin:3px"></div>
 
-<div onClick="javascript:changeStuff('Mason Cole')" onMouseOver="this.style.cursor='hand'" style="float:left">
-<img src="/images/members/2012/heads/unknown.JPG" height="70" width="60" alt="Mason Cole" style="margin:3px"></div>
+
+<div onClick="javascript:changeStuff('Franz Brotzen-Smith')" onMouseOver="this.style.cursor='hand'" style="float:left">
+<img src="/images/members/2012/heads/unknown.JPG" height="70" width="60" alt="Franz Brotzen-Smith" style="margin:3px"></div>
+
+
 
 </td></tr>
 
@@ -681,10 +698,7 @@ future[name] = "";
 <td width="350px" valign="top">
 
 </div>
-<div id="nameMem" style="font-size:10pt; margin-bottom:0px"></div>
 
-<div id="textMem" style="font-size:10pt"><br /><br /><center>
-  Click on a thumbnail to see each team member's profile information</center></div>
 
 
 <div id="pixMem" name="pixMem">
@@ -709,7 +723,10 @@ future[name] = "";
 
 <h2> CAD Team </h2>
 <P>This team designs the robot, from the drivetrain to the upper body. </p><br/>
+<div id="nameMem" style="font-size:10pt; margin-bottom:0px"></div>
 
+<div id="textMem" style="font-size:15pt"><br /><br /><center>
+  Click on a thumbnail to see each team member's profile information</center></div>
 
 
 
